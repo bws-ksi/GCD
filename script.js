@@ -14,10 +14,10 @@ console.log(GCD(-462, 1071));
 
 // binary
 function GCD2 (c,d) {
-  if(a == 0) {
+  if(a === 0) {
     return b;
   }
-  while (b != 0 ) {
+  while (b !== 0 ) {
     if (a > b) {
       a = a - b;
     } else {
